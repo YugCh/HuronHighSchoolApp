@@ -74,7 +74,7 @@ public class MainActivity extends Activity {
         });
 
         final Button buttonSchedule = (Button) findViewById(R.id.ButtonSchedule);
-        buttonMap.setOnClickListener(new View.OnClickListener()
+        buttonSchedule.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View v)
             {
