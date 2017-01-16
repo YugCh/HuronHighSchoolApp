@@ -15,6 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Maps" />
+        <activity android:name=".Calendar" />
+        <activity android:name=".Directory" />
+        <activity android:name=".Announcements" />
+        <activity android:name=".BellSchedule" />
+        <activity android:name=".PSchool" />
+        <activity android:name=".Schedule" />
+        <activity android:name=".SnowDay"></activity>
     </application>
 
 </manifest>
