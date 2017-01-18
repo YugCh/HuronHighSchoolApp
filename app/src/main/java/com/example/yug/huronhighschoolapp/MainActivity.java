@@ -68,8 +68,9 @@ public class MainActivity extends Activity {
         {
             public void onClick(View v)
             {
-                Intent intentPSchool = new Intent(v.getContext(), PSchool.class);
-                startActivity(intentPSchool);
+                Uri PSchool = Uri.parse("http://pschool.aaps.k12.mi.us");
+                Intent PSchool = new Intent(Intent.ACTION_VIEW, PSchool);
+                startActivity(PSchool);
             }
         });
 
