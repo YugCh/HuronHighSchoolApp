@@ -11,11 +11,5 @@ public class PSchool extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pschool);
-
-        WebView viewPSchool = (WebView) findViewById(R.id.PSchoolView);
-        WebSettings webSettings = viewPSchool.getSettings();
-        webSettings.setJavaScriptEnabled(true);
-        webSettings.setSupportMultipleWindows(true);
-        viewPSchool.loadUrl("https://pschool.aaps.k12.mi.us/public/");
     }
 }
