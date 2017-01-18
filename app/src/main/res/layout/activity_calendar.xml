@@ -9,10 +9,27 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.yug.huronhighschoolapp.Calendar">
+    <Button
+        android:id="@+id/DistrictCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
     <WebView
         android:id="@+id/CalendarView"
+        android:layout_below="@id/DistrictCalendar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="300dp"
+        android:visibility="gone">
+    </WebView>
+    <Button
+        android:id="@+id/SportsCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/CalendarView"/>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/SportsCalendar"
+        android:visibility="gone">
     </WebView>
 
 </RelativeLayout>
