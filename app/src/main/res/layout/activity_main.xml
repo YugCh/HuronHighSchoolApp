@@ -25,13 +25,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Map"
-                android:onClick="sendMessage"/>
+                android:elevation="2dp"
+                android:text="Map"/>
             <Button
                 android:id="@+id/ButtonDirectory"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:elevation="2dp"
                 android:text="Directory"/>
         </LinearLayout>
         <LinearLayout
@@ -44,12 +45,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:elevation="2dp"
                 android:text="Calendar"/>
             <Button
                 android:id="@+id/ButtonBellSchedule"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:elevation="2dp"
                 android:text="Bell Schedule"/>
         </LinearLayout>
     </LinearLayout>
@@ -68,12 +71,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:elevation="2dp"
                 android:text="Announcements"/>
             <Button
                 android:id="@+id/ButtonSchedule"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:elevation="2dp"
                 android:text="Class Schedule"/>
         </LinearLayout>
         <LinearLayout
@@ -86,12 +91,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:elevation="2dp"
                 android:text="PowerSchool"/>
             <Button
                 android:id="@+id/ButtonSnowDay"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:elevation="2dp"
                 android:text="Snow Day Information"/>
         </LinearLayout>
     </LinearLayout>
