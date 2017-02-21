@@ -10,4 +10,33 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.yug.huronhighschoolapp.BellSchedule">
 
+
+    <Button
+        android:text="Normal Schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/normalbutton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Double Assembly Schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/normalbutton"
+        android:layout_alignParentStart="true"
+        android:id="@+id/doublebutton"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Exam Week Schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doublebutton"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button3"
+        android:layout_alignParentEnd="true" />
+
+
 </RelativeLayout>

@@ -22,7 +22,7 @@ public class SnowDay extends Activity {
         {
             public void onClick(View v)
             {
-                Intent intent = new Intent(Intent.ACTION_CALL);
+                Intent intent = new Intent(Intent.ACTION_DIAL);
 
                 intent.setData(Uri.parse("tel:" + savedInstanceState.getString("7349948684")));
                 startActivity(intent);
