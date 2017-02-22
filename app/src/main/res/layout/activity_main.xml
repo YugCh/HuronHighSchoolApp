@@ -26,14 +26,18 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:elevation="2dp"
-                android:text="Map"/>
+                android:text="Map"
+                android:drawableBottom="@drawable/maps"
+                android:layout_margin="8dp"/>
             <Button
                 android:id="@+id/ButtonDirectory"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:elevation="2dp"
-                android:text="Directory"/>
+                android:text="Directory"
+                android:drawableBottom="@drawable/directory"
+                android:layout_margin="8dp"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="0dp"
@@ -46,14 +50,17 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:elevation="2dp"
-                android:text="Calendar"/>
+                android:text="Calendar"
+                android:layout_margin="8dp"/>
             <Button
                 android:id="@+id/ButtonBellSchedule"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:elevation="2dp"
-                android:text="Bell Schedule"/>
+                android:text="Bell Schedule"
+                android:drawableBottom="@drawable/bell"
+                android:layout_margin="8dp"/>
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
@@ -72,34 +79,43 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:elevation="2dp"
-                android:text="Announcements"/>
+                android:text="Announcements"
+                android:drawableBottom="@drawable/announcements"
+                android:layout_margin="8dp"/>
             <Button
                 android:id="@+id/ButtonSchedule"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:elevation="2dp"
-                android:text="Class Schedule"/>
+                android:text="Class Schedule"
+                android:drawableBottom="@drawable/schedule"
+                android:layout_margin="8dp"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:orientation="vertical">
-            <Button
+            <ImageButton
                 android:id="@+id/ButtonPSchool"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:elevation="2dp"
-                android:text="PowerSchool"/>
+                android:adjustViewBounds="true"
+                android:src="@drawable/powerschool"
+                android:scaleType="fitXY"
+                android:background="#FFFFFF"
+                android:layout_margin="8dp"/>
             <Button
                 android:id="@+id/ButtonSnowDay"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:elevation="2dp"
-                android:text="Snow Day Information"/>
+                android:text="Snow Day Information"
+                android:layout_margin="8dp"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

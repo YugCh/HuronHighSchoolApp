@@ -6,6 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MainActivity extends Activity {
 
@@ -64,7 +65,7 @@ public class MainActivity extends Activity {
             }
         });
 
-        final Button buttonPSchool = (Button) findViewById(R.id.ButtonPSchool);
+        final ImageButton buttonPSchool = (ImageButton) findViewById(R.id.ButtonPSchool);
         buttonPSchool.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View v)
