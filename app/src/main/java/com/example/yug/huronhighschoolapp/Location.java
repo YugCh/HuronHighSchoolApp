@@ -43,5 +43,6 @@ public class Location extends FragmentActivity implements OnMapReadyCallback {
         LatLng HuronHighSchool = new LatLng(42.281477, -83.703014);
         mMap.addMarker(new MarkerOptions().position(HuronHighSchool).title("Huron High School"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(HuronHighSchool));
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(14.0f));
     }
 }

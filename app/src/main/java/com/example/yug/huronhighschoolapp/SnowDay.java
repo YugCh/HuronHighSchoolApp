@@ -23,15 +23,11 @@ public class SnowDay extends Activity {
         Button callHotline = (Button) findViewById(R.id.ButtonWeatherHotline);
         callHotline.setOnClickListener(new View.OnClickListener()
         {
-            public void onClick(View arg0)
+            public void onClick(View v)
             {
-                Intent intent = new Intent(Intent.ACTION_CALL);
+                Intent intent = new Intent(Intent.ACTION_DIAL);
                 intent.setData(Uri.parse("tel:7349948684"));
 
-                if(ActivityCompat.checkSelfPermission(SnowDay.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED)
-                {
-                    return;
-                }
                 startActivity(intent);
             }
         });

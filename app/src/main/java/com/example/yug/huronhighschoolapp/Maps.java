@@ -22,5 +22,25 @@ public class Maps extends Activity {
                 startActivity(intentMaps);
             }
         });
+
+        final Button buttonRestaurant = (Button) findViewById(R.id.nearby);
+        buttonRestaurant.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                Intent intentMaps1 = new Intent(v.getContext(), MapsActivity.class);
+                startActivity(intentMaps1);
+            }
+        });
+
+        final Button buttonCampusmap = (Button) findViewById(R.id.campus);
+        buttonCampusmap.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                Intent intentCampusmap = new Intent(v.getContext(), CampusMap.class);
+                startActivity(intentCampusmap);
+            }
+        });
     }
 }

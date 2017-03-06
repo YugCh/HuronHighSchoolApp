@@ -76,13 +76,13 @@ public class MainActivity extends Activity {
             }
         });
 
-        final Button buttonSchedule = (Button) findViewById(R.id.ButtonSchedule);
-        buttonSchedule.setOnClickListener(new View.OnClickListener()
+        final Button buttonMission = (Button) findViewById(R.id.ButtonMission);
+        buttonMission.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View v)
             {
-                Intent intentSchedule = new Intent(v.getContext(), Schedule.class);
-                startActivity(intentSchedule);
+                Intent intentMission = new Intent(v.getContext(), Mission.class);
+                startActivity(intentMission);
             }
         });
 

@@ -32,7 +32,6 @@
         <activity android:name=".Announcements" />
         <activity android:name=".BellSchedule" />
         <activity android:name=".PSchool" />
-        <activity android:name=".Schedule" />
         <activity android:name=".SnowDay" />
         <activity android:name=".NormalSchedule" />
         <activity android:name=".DoubleSchedule" />
@@ -51,7 +50,12 @@
 
         <activity
             android:name=".Location"
-            android:label="@string/title_activity_location"></activity>
+            android:label="@string/title_activity_location" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".CampusMap" />
+        <activity android:name=".Mission"></activity>
     </application>
 
 </manifest>
