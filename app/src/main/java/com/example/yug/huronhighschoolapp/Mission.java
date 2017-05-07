@@ -1,7 +1,6 @@
 package com.example.yug.huronhighschoolapp;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class Mission extends Activity {
